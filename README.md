@@ -2,8 +2,7 @@
 
 An official implement of the paper [MGTR: End-to-end Mutual Gaze Detection with Transformer]().
 
-![architecture](https://github.com/Gmbition/MGTR/blob/main/assets/architecture.png)
-<img  src="https://github.com/Gmbition/MGTR/blob/main/assets/architecture.png" alt="architecture" style="zoom: 67%;" />
+<img  src="https://github.com/Gmbition/MGTR/blob/main/assets/architecture.png" alt="architecture" style="zoom: 40%;" />
 ### Dependencies
 
 - Python >= 3.6 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux))
@@ -20,7 +19,7 @@ An official implement of the paper [MGTR: End-to-end Mutual Gaze Detection with 
 
 ###  Visualization
 
-![viz](https://github.com/Gmbition/MGTR/blob/main/assets/viz.gif#pic_center)
+<img  src="https://github.com/Gmbition/MGTR/blob/main/assets/viz.gif" alt="viz" style="zoom: 67%;" />
 
 ### Quick Start
 
