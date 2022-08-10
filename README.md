@@ -20,7 +20,7 @@ An official implement of the paper [MGTR: End-to-end Mutual Gaze Detection with 
 
 ###  Visualization
 
-![viz](https://github.com/Gmbition/MGTR/blob/main/assets/viz.gif)
+![viz](https://github.com/Gmbition/MGTR/blob/main/assets/viz.gif#pic_center)
 
 ### Quick Start
 
