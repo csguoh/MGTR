@@ -2,7 +2,7 @@
 
 An official implement of the paper [MGTR: End-to-end Mutual Gaze Detection with Transformer]().
 
-<img src="https://github.com/Gmbition/MGTR/assets/architecture.png" alt="architecture" style="zoom: 67%;" />
+![architecture](https://github.com/Gmbition/MGTR/blob/main/assets/architecture.png)
 
 ### Dependencies
 
@@ -20,7 +20,7 @@ An official implement of the paper [MGTR: End-to-end Mutual Gaze Detection with 
 
 ###  Visualization
 
-<img src="E:\open-source\assets\viz.gif" alt="viz" style="zoom: 67%;" />
+![viz](https://github.com/Gmbition/MGTR/blob/main/assets/viz.gif)
 
 ### Quick Start
 
