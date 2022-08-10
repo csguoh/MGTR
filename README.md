@@ -3,7 +3,7 @@
 An official implement of the paper [MGTR: End-to-end Mutual Gaze Detection with Transformer]().
 
 <img  src="https://github.com/Gmbition/MGTR/blob/main/assets/architecture.png" alt="architecture" style="zoom: 40%;" />
-### Dependencies
+## Dependencies
 
 - Python >= 3.6 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux))
 - [PyTorch >= 1.7.1](https://pytorch.org/)
@@ -12,16 +12,16 @@ An official implement of the paper [MGTR: End-to-end Mutual Gaze Detection with 
 - Opencv-python>=4.5.1
 
 
-### Performance on mAP
+## Performance on mAP
 | Model | AVA-LAEO | UCO-LAEO |
 |---|---|---|
 | MGTR | 66.2 | 64.8 |
 
-###  Visualization
+## Visualization
 
 <img  src="https://github.com/Gmbition/MGTR/blob/main/assets/viz.gif" alt="viz" style="zoom: 40%;" />
 
-### Quick Start
+## Quick Start
 
 1. Clone this github repo.
    ```
@@ -44,19 +44,24 @@ An official implement of the paper [MGTR: End-to-end Mutual Gaze Detection with 
 
 5. The visualization results (if set `save_image = True`) will be sorted in `./log`.
 
-### Annotations
+## Annotations
 
 We annotate each mutual gaze instance in one image as a dict and the annoartion is stored in `./data`. There are four annotation json files for AVA-LAEO and UCO-LAEO training and testing respectively. The specific format of one mutual gaze instance annoatation is as follow:
 
 ```
-{"file_name": "scence_name/image.jpg",
+{
+"file_name": "scence_name/image.jpg",
 "width": width of the image,
 "height": height of the image, 
-"gt_bboxes": [{"tag": 1, "box": a list containing the [x,y,w,h] of the box}, ...],
-"laeo": [{"person_1": the idx of person1, "person_2": the idx of person2, "interaction": whether looking at each other}]}
-
+"gt_bboxes": [{"tag": 1, 
+               "box": a list containing the [x,y,w,h] of the box},
+               ...],
+"laeo": [{"person_1": the idx of person1, 
+          "person_2": the idx of person2, 
+          "interaction": whether looking at each other}]
+}
 ```
 
-### Acknowledgement
+## Acknowledgement
 
 We sincerely thank the cool work by some very cool people, especially  [DETR](https://github.com/facebookresearch/detr), [HoiTransformer](https://github.com/bbepoch/HoiTransformer).
