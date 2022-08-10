@@ -53,4 +53,4 @@ We annotate each mutual gaze instance in one image as a dict and the annoartion 
 
 ### Acknowledgement
 
-We sincerely thank the cool work by some very cool people, especially  [DETR]([facebookresearch/detr: End-to-End Object Detection with Transformers (github.com)](https://github.com/facebookresearch/detr)), [HoiTransformer]([bbepoch/HoiTransformer: This is the code for HOI Transformer (github.com)](https://github.com/bbepoch/HoiTransformer)).
+We sincerely thank the cool work by some very cool people, especially  [DETR](https://github.com/facebookresearch/detr), [HoiTransformer](https://github.com/bbepoch/HoiTransformer).
