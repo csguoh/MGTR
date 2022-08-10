@@ -19,7 +19,7 @@ An official implement of the paper [MGTR: End-to-end Mutual Gaze Detection with 
 
 ###  Visualization
 
-<img  src="https://github.com/Gmbition/MGTR/blob/main/assets/viz.gif" alt="viz" style="zoom: 67%;" />
+<img  src="https://github.com/Gmbition/MGTR/blob/main/assets/viz.gif" alt="viz" style="zoom: 40%;" />
 
 ### Quick Start
 
@@ -48,7 +48,14 @@ An official implement of the paper [MGTR: End-to-end Mutual Gaze Detection with 
 
 We annotate each mutual gaze instance in one image as a dict and the annoartion is stored in `./data`. There are four annotation json files for AVA-LAEO and UCO-LAEO training and testing respectively. The specific format of one mutual gaze instance annoatation is as follow:
 
-`{"file_name": "scence_name/image.jpg", "width": width of the image, "height": height of the image, "gt_bboxes": [{"tag": 1, "box": a list containing the [x,y,w,h] of the box}, ...], "laeo": [{"person_1": the idx of person1, "person_2": the idx of person2, "interaction": whether looking at each other}]}`
+```
+{"file_name": "scence_name/image.jpg",
+"width": width of the image,
+"height": height of the image, 
+"gt_bboxes": [{"tag": 1, "box": a list containing the [x,y,w,h] of the box}, ...],
+"laeo": [{"person_1": the idx of person1, "person_2": the idx of person2, "interaction": whether looking at each other}]}
+
+```
 
 ### Acknowledgement
 
