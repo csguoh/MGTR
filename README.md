@@ -35,7 +35,7 @@ An official implement of the paper [MGTR: End-to-end Mutual Gaze Detection with 
    - [AVA-LAEO]()   password:
    - [UCO-LAEO]()  password:
 
-3. Download our trained model from [here](https://drive.google.com/drive/folders/1Wu3ZEIfTiQ-Me8iknbPhEHMIiDWLeUaS?usp=sharing) and move them to `./data/mgtr_pretrained`.
+3. Download our trained model from [here](https://drive.google.com/drive/folders/1Wu3ZEIfTiQ-Me8iknbPhEHMIiDWLeUaS?usp=sharing) and move them to `./data/mgtr_pretrained`(need to creat this new `mgtr_pretrained` file).
 
 4. Run testing for MGTR.
 
