@@ -4,7 +4,7 @@
 
 <img  src="https://github.com/Gmbition/MGTR/blob/main/assets/architecture.png" alt="architecture" style="zoom: 40%;" />
 
-## Dependencies
+## 'star2' Dependencies
 
 - Python >= 3.6 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux))
 - [PyTorch >= 1.7.1](https://pytorch.org/)
@@ -13,7 +13,7 @@
 - Opencv-python>=4.5.1
 
 
-## Performance on mAP
+## :star2: Performance on mAP
 | Model | AVA-LAEO | UCO-LAEO |
 |---|---|---|
 | MGTR | 66.2 | 64.8 |
@@ -22,7 +22,7 @@
 
 <img  src="https://github.com/Gmbition/MGTR/blob/main/assets/viz.gif" alt="viz" style="zoom: 40%;" />
 
-## Quick Start
+## :star2: Quick Start
 
 1. Clone this github repo.
    ```
@@ -45,7 +45,7 @@
 
 5. The visualization results (if set `save_image = True`) will be sorted in `./log`.
 
-## Annotations
+## :star2: Annotations
 
 We annotate each mutual gaze instance in one image as a dict and the annoartion is stored in `./data`. There are four annotation json files for AVA-LAEO and UCO-LAEO training and testing respectively. The specific format of one mutual gaze instance annoatation is as follow:
 
@@ -63,6 +63,7 @@ We annotate each mutual gaze instance in one image as a dict and the annoartion 
 }
 ```
 
-## Acknowledgement
+## :blush: Acknowledgement
 
-We sincerely thank the cool work by some very cool people, especially  [DETR](https://github.com/facebookresearch/detr), [HoiTransformer](https://github.com/bbepoch/HoiTransformer).
+We sincerely thank the cool work by some very cool people 'sunglasses'
+[DETR](https://github.com/facebookresearch/detr), [HoiTransformer](https://github.com/bbepoch/HoiTransformer).
