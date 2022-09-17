@@ -4,7 +4,7 @@
 
 <img  src="https://github.com/Gmbition/MGTR/blob/main/assets/architecture.png" alt="architecture" style="zoom: 40%;" />
 
-## 'star2' Dependencies
+## :star2: Dependencies
 
 - Python >= 3.6 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux))
 - [PyTorch >= 1.7.1](https://pytorch.org/)
@@ -18,7 +18,7 @@
 |---|---|---|
 | MGTR | 66.2 | 64.8 |
 
-## Visualization
+## :star2: Visualization
 
 <img  src="https://github.com/Gmbition/MGTR/blob/main/assets/viz.gif" alt="viz" style="zoom: 40%;" />
 
@@ -65,5 +65,5 @@ We annotate each mutual gaze instance in one image as a dict and the annoartion 
 
 ## :blush: Acknowledgement
 
-We sincerely thank the cool work by some very cool people 'sunglasses'
+We sincerely thank the cool work by some very cool people :sunglasses:
 [DETR](https://github.com/facebookresearch/detr), [HoiTransformer](https://github.com/bbepoch/HoiTransformer).
