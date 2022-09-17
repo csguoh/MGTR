@@ -1,6 +1,6 @@
 # MGTR
 
-An official implement of the paper [MGTR: End-to-end Mutual Gaze Detection with Transformer]().
+[ACCV 2022] An official implement of the paper [MGTR: End-to-end Mutual Gaze Detection with Transformer]().
 
 <img  src="https://github.com/Gmbition/MGTR/blob/main/assets/architecture.png" alt="architecture" style="zoom: 40%;" />
 
