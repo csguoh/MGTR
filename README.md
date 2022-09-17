@@ -4,7 +4,7 @@
 
 <img  src="https://github.com/Gmbition/MGTR/blob/main/assets/architecture.png" alt="architecture" style="zoom: 40%;" />
 
-## Dependencies
+## 📑 Dependencies
 
 - Python >= 3.6 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux))
 - [PyTorch >= 1.7.1](https://pytorch.org/)
@@ -13,14 +13,14 @@
 - Opencv-python>=4.5.1
 
 
-## Performance on mAP
+## 💕 Performance on mAP
 | Model | AVA-LAEO | UCO-LAEO |
 |---|---|---|
 | MGTR | 66.2 | 64.8 |
 
-## Visualization
+## 👀 Visualization
 
-<img  src="https://github.com/Gmbition/MGTR/blob/main/assets/viz.gif" alt="viz" style="zoom: 40%;" />
+<img  src="https://github.com/Gmbition/MGTR/blob/main/assets/viz.gif", alt="viz" style="zoom: 10%;" />
 
 ## 😀 Quick Start
 
