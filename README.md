@@ -2,7 +2,7 @@
 
 [ACCV 2022] An official implement of the paper [MGTR: End-to-end Mutual Gaze Detection with Transformer]().
 
-<img  src="https://github.com/Gmbition/MGTR/blob/main/assets/architecture.png" alt="architecture" style="zoom: 40%;" />
+<img  src="https://github.com/Gmbition/MGTR/blob/main/assets/architecture.png" width="850px">
 
 ## 📑 Dependencies
 
@@ -20,7 +20,8 @@
 
 ## 👀 Visualization
 
-<img  src="https://github.com/Gmbition/MGTR/blob/main/assets/viz.gif", alt="viz" style="zoom: 10%;" />
+
+<img  src="https://github.com/Gmbition/MGTR/blob/main/assets/viz.gif" width="450px">
 
 ## 😀 Quick Start
 
@@ -65,5 +66,5 @@ We annotate each mutual gaze instance in one image as a dict and the annoartion 
 
 ## :blush: Acknowledgement
 
-We sincerely thank the cool work by some very cool people :sunglasses:
+We sincerely thank the cool work by very cool people :sunglasses: 
 [DETR](https://github.com/facebookresearch/detr), [HoiTransformer](https://github.com/bbepoch/HoiTransformer).
