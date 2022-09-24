@@ -1,7 +1,7 @@
 # MGTR
 
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2209.10930.pdf)<br>
-[ACCV 2022] An official implement of the paper [MGTR: End-to-end Mutual Gaze Detection with Transformer]().
+[ACCV 2022] An official implement of the paper [MGTR: End-to-end Mutual Gaze Detection with Transformer](https://arxiv.org/pdf/2209.10930.pdf).
 
 <img  src="https://github.com/Gmbition/MGTR/blob/main/assets/architecture.png" width="850px">
 
