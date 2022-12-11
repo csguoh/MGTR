@@ -33,10 +33,10 @@
    cd MGTR
    ```
 
-2. Download Mutual Gaze Datasets from Baidu Drive(coming soon~).
+2. Download Mutual Gaze Datasets from Baidu Drive and put the annotation json files to `./data`. 
 
-   - [AVA-LAEO]()   password:
-   - [UCO-LAEO]()  password:
+   - [AVA-LAEO](https://pan.baidu.com/s/1Kt02uAEr3us7iu43DYAK7g?pwd=ava1)[5.18G]      password: ava1
+   - [UCO-LAEO](https://pan.baidu.com/s/1_LbgTUGzHyvwSfBVzfvNnQ?pwd=uco1)[3.84G]      password: uco1
 
 3. Download our trained model from [here](https://drive.google.com/drive/folders/1Wu3ZEIfTiQ-Me8iknbPhEHMIiDWLeUaS?usp=sharing) and move them to `./data/mgtr_pretrained`(need to creat this new `mgtr_pretrained` file).
 
@@ -50,7 +50,7 @@
 
 ## 📖 Annotations
 
-We annotate each mutual gaze instance in one image as a dict and the annoartion is stored in `./data`. There are four annotation json files for AVA-LAEO and UCO-LAEO training and testing respectively. The specific format of one mutual gaze instance annoatation is as follow:
+We annotate each mutual gaze instance in one image as a dict and the annoataion is stored in `./data`. There are four annotation json files for AVA-LAEO and UCO-LAEO training and testing respectively. The specific format of one mutual gaze instance annoatation is as follow:
 
 ```
 {
