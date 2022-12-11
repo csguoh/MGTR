@@ -66,6 +66,18 @@ We annotate each mutual gaze instance in one image as a dict and the annoartion 
 }
 ```
 
+## 📘 Citation
+Please cite us if this work is helpful to you.
+```
+@inproceedings{guo2022mgtr,
+  title={MGTR: End-to-End Mutual Gaze Detection with Transformer},
+  author={Guo, Hang and Hu, Zhengxi and Liu, Jingtai},
+  booktitle={Proceedings of the Asian Conference on Computer Vision},
+  pages={1590--1605},
+  year={2022}
+}
+```
+
 ## :blush: Acknowledgement
 
 We sincerely thank the cool work by very cool people :sunglasses: 
